@@ -1,0 +1,5 @@
+(function($){
+	setTimeout(function(){ 
+		$('#modal-contato').css("display","flex");
+	},50000);// Mostrar só depois da pessoa estar na página por 50 segundos
+})(jQuery);

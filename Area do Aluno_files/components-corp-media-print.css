@@ -1,0 +1,78 @@
+body * {
+  visibility: hidden;
+}
+
+#printSection,
+#printSection * {
+  visibility: visible;
+}
+
+#printSection {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hidden-print {
+  display: none !important;
+}
+
+.hidden-screen {
+  display: block !important;
+}
+
+.modal-footer,
+.modal-header button.close {
+  display: none !important;
+}
+
+.panel-collapse,
+.panel-collapse .collapse {
+  height: auto !important;
+  display: block !important;
+}
+
+.wrap-top-left .filter {
+  width: 50%;
+  float: left;
+}
+
+.panel-heading table td {
+  padding: 0;
+}
+
+.panel-heading table td * {
+  font-size: 1em;
+  margin: 5px;
+}
+
+.table .box-header-2 {
+  border: 1px solid #ccc !important;
+  color: #666;
+  border-bottom: none;
+}
+
+table {
+  page-break-inside: avoid;
+}
+
+body * {
+  color: #666 !important;
+  font-weight: normal !important;
+}
+
+/*
+.wrap-top-left,
+.filter,
+table.print-friendly tr td,
+table.print-friendly tr th {
+    page-break-inside: avoid!important;
+    page-break-after: avoid!important;
+    page-break-before: avoid!important;
+}
+*/
+
+.filter {
+  margin-bottom: 40px;
+  display: block !important;
+}
